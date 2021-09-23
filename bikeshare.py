@@ -22,7 +22,7 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
-            print('please choose from chicago, new york city, washington')            
+            print('please choose from either chicago, new york city, washington')            
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
@@ -30,7 +30,7 @@ def get_filters():
         if month in ['all','january', 'february', 'march', 'april', 'may', 'june']:
             break
         else:
-            print('please choose from January, February, March, April, May,June, all') 
+            print('please choose from All, January, February, March, April, May, June') 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
